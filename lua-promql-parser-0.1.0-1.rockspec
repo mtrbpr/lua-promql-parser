@@ -3,7 +3,7 @@ version = "0.1.0-1"
 
 source = {
     url = "git+https://github.com/mtrbpr/lua-promql-parser",
-    tag = "0.1.0",
+    tag = "0.1.1",
 }
 
 description = {
@@ -24,5 +24,5 @@ build = {
     modules = {
         "promql_parser",
     },
-    features = {"ser"}
+    features = {"lua54", "lua53", "lua52"}
 }
