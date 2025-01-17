@@ -1,4 +1,4 @@
-package = "promql"
+package = "lua-promql-parser"
 version = "0.1.0-1"
 
 source = {
