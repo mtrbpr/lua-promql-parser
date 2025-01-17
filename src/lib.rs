@@ -78,7 +78,7 @@ fn parse(_: &Lua, promql: String) -> LuaResult<(Option<Expr>, Option<String>)> {
 }
 
 #[mlua::lua_module]
-fn promql(lua: &Lua) -> LuaResult<LuaTable> {
+fn promql_parser(lua: &Lua) -> LuaResult<LuaTable> {
     let exports = lua.create_table()?;
     exports.set("parse", lua.create_function(parse)?)?;
     Ok(exports)
