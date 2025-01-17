@@ -27,7 +27,7 @@ license = "Apache-2.0"
 categories = ["parser-implementations"]
 
 [dependencies]
-mlua = { version = "0.10.2", features = ["lua54", "module"] }
+mlua = { version = "0.10.2", features = ["lua54","module"] }
 cfgrammar = "0.13.5"
 chrono = "0.4.38"
 lazy_static = "1.4.0"
@@ -42,6 +42,7 @@ default = ["ser"]
 ser = ["serde", "serde_json"]
 
 [build-dependencies]
+mlua = { version = "0.10.2", features = ["lua54","module"] }
 cfgrammar = "0.13.5"
 lrlex = "0.13.5"
 lrpar = "0.13.5"
