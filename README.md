@@ -1,7 +1,6 @@
 # PromQL Lexer and Parser
 
-The goal of this project is to build a PromQL lexer and parser capable of
-parsing PromQL that conforms with PromQL.
+The goal of this project is to build a PromQL parser.
 
 ## Example
 
